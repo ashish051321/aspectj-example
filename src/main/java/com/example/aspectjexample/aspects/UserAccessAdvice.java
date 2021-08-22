@@ -15,9 +15,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Component;
 
-@Configuration
 @Aspect
 public class UserAccessAdvice {
+
+    public UserAccessAdvice(){
+
+    }
 
     Logger log = LoggerFactory.getLogger(UserAccessAdvice.class);
 
